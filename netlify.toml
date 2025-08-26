@@ -1,2 +1,9 @@
 [build]
   publish = "."
+
+# (senere) Redirect til takk-side etter skjema
+# [[redirects]]
+#   from = "/"
+#   to = "/takk.html"
+#   status = 302
+#   force = false
