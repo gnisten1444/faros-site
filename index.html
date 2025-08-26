@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Faros – Små bedrifter, store muligheter</title>
+  <meta name="description" content="Faros bygger enkle, raske nettsider og små automasjoner for små bedrifter – med fokus på verdi, synlighet og ro i hverdagen."/>
+  <meta name="theme-color" content="#0B2E59"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles.css" />
+  <link rel="icon" href="/assets/faros-favicon.svg" type="image/svg+xml" />
+</head>
+<body>
+
+<main>
+  <!-- HERO -->
+  <section class="hero">
+    <div class="container hero__inner">
+      <div class="hero__text">
+        <h1>Små bedrifter, <span class="highlight">store muligheter</span>.</h1>
+        <p class="lead">Jeg heter Adrian. Jeg er <b>håndverker og rørlegger</b> i bunnen, og har jobbet som <b>selger og markedsfører</b>. Nå bruker jeg den erfaringen til å bygge enkle, raske nettsider og små smarte løsninger – så du får mer tid til jobben din.</p>
+        <div class="hero__cta">
+          <a class="btn btn--primary" href="#tjenester">Se hvordan vi kan hjelpe</a>
+          <a class="btn btn--secondary" href="#caser">Se caser</a>
+        </div>
+        <p class="note">Fargeuttrykket vårt er valgt for å være <b>tydelig, varmt og inkluderende</b> – dyp blå for trygghet, turkis for fremdrift, og en myk varm aksent.</p>
+      </div>
+      <div class="hero__art" aria-hidden="true">
+        <svg class="flame-svg" viewBox="0 0 220 260" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <defs>
+            <radialGradient id="flameGrad" cx="50%" cy="40%" r="70%">
+              <stop offset="0%" stop-color="#ffffff"/>
+              <stop offset="45%" stop-color="#e9f9ff"/>
+              <stop offset="80%" stop-color="#bfeaff"/>
+              <stop offset="100%" stop-color="#8ed8ff"/>
+            </radialGradient>
+          </defs>
+          <ellipse cx="110" cy="190" rx="85" ry="55" fill="url(#flameGrad)" opacity="0.35"/>
+          <path d="M140 30 C118 48, 170 72, 138 140 C130 120, 102 104, 92 78 C88 64, 94 46, 112 36 C116 48, 148 52, 140 30 Z" fill="url(#flameGrad)"/>
+          <path d="M128 88 C122 94, 138 102, 124 132 C120 120, 110 112, 110 100 C110 94, 114 88, 120 86 C120 90, 130 92, 128 88 Z" fill="#ffffff" opacity="0.95"/>
+        </svg>
+      </div>
+    </div>
+  </section>
+
+  <!-- VALUE -->
+  <section class="values" id="tjenester">
+    <div class="container">
+      <h2>Dette får du med Faros</h2>
+      <div class="grid-3">
+        <article class="card">
+          <h3>Ferdig levert</h3>
+          <p>Du gir meg tekst/bilder – jeg leverer en moderne, mobiltilpasset side.</p>
+        </article>
+        <article class="card">
+          <h3>Synlighet & SEO</h3>
+          <p>Grunnleggende søk og struktur som gjør at kunder faktisk finner deg.</p>
+        </article>
+        <article class="card">
+          <h3>Enklere hverdag</h3>
+          <p>Små automasjoner (booking/utsendelser) som sparer deg tid hver uke.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOUNDER NOTE -->
+  <section class="founder" id="om">
+    <div class="container founder__inner">
+      <div class="avatar" aria-hidden="true"></div>
+      <div>
+        <h2>Hvorfor Faros?</h2>
+        <p>Jeg har alltid likt å <b>bygge ting som funker</b>. Som rørlegger lærte jeg struktur og kvalitet. Som selger og markedsfører lærte jeg hva som får kunder til å si ja. Faros er kombinasjonen: praktisk bygging + tydelig kommunikasjon.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CASES -->
+  <section class="cases" id="caser">
+    <div class="container">
+      <h2>Utvalgte caser</h2>
+      <div class="grid-3">
+        <article class="case">
+          <div class="case__thumb"></div>
+          <h3>Gudrun – fotterapeut</h3>
+          <p>“Nå har jeg en side jeg er stolt av – og kundene finner meg enklere.”</p>
+        </article>
+        <article class="case">
+          <div class="case__thumb"></div>
+          <h3>Legesenter</h3>
+          <p>Timepåminnelse + strukturert info → mindre telefoner og mer ro.</p>
+        </article>
+        <article class="case">
+          <div class="case__thumb"></div>
+          <h3>Lokalt verksted</h3>
+          <p>Ny landingsside og Google-oppføringer ga flere henvendelser.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA STRIP -->
+  <section class="cta-strip">
+    <div class="container cta-strip__inner">
+      <h2>Klar for en enklere, synligere hverdag?</h2>
+      <a class="btn btn--light" href="#kontakt">Book en prat</a>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact" id="kontakt">
+    <div class="container contact__inner">
+      <div class="contact__text">
+        <h2>Si kort hva du trenger</h2>
+        <p>Jeg svarer ofte samme dag. Pilot-pris for første 5 caser.</p>
+      </div>
+      <form name="kontakt" method="POST" data-netlify="true" data-netlify-honeypot="bot-field" class="form">
+        <input type="hidden" name="form-name" value="kontakt">
+        <p class="hidden">
+          <label>Ikke fyll ut: <input name="bot-field"></label>
+        </p>
+        <div class="form__grid">
+          <div class="form__control">
+            <label for="navn">Navn</label>
+            <input id="navn" name="navn" type="text" placeholder="Ditt navn" required>
+          </div>
+          <div class="form__control">
+            <label for="epost">E‑post</label>
+            <input id="epost" name="epost" type="email" placeholder="din@epost.no" required>
+          </div>
+          <div class="form__control form__control--full">
+            <label for="melding">Hva trenger du?</label>
+            <textarea id="melding" name="melding" rows="5" placeholder="Fortell kort om behovet ditt"></textarea>
+          </div>
+        </div>
+        <button type="submit" class="btn btn--primary">Send melding</button>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="container footer__copy">
+    © Faros – smarte løsninger for små bedrifter
+  </div>
+</footer>
+
+</body>
+</html>
